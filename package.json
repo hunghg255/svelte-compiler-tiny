@@ -1,0 +1,21 @@
+{
+  "name": "svelte-compiler-tiny",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "hunghg255",
+  "license": "ISC",
+  "dependencies": {
+    "acorn": "^8.10.0",
+    "corn": "^0.0.1",
+    "escodegen": "^2.1.0",
+    "estree-walker": "^3.0.3",
+    "periscopic": "^4.0.2",
+    "react": "^18.2.0"
+  }
+}
