@@ -7,6 +7,7 @@ import * as escodegen from 'escodegen';
 const content = fs.readFileSync('./App.svelte', 'utf8');
 
 const ast = parse(content);
+console.log(ast);
 const analysis = analyse(ast);
 const js = generate(ast, analysis);
 console.log(js);
